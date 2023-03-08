@@ -48,6 +48,6 @@ class MainActivity : AppCompatActivity() {
             sharedPreferences.edit().remove("age").apply()
             binding.textView.text = "Your Age: "
         }
-
+        println(message = "test")
     }
 }
